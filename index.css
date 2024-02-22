@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+    padding: 10px 16px;
+}
+.nav-content{
+    padding: 8px 16px;
+}
+.nav-container{
+  padding:10px 16px;
+}
+
+.br{
+    
+    float: left;
+    cursor: pointer;
+
+    
+}
+
+.nav-container ul li{
+    list-style: none;
+    padding: 8px 16px;
+    letter-spacing: 5px;
+    float: right;
+}
+.nav-container ul li:hover{
+    padding: 8px 16px;
+}
+.intro{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: white;
+    text-align: right;
+    z-index: 1;
+    top: 0px;
+}
+.new{
+color: black;
+text-decoration: none;
+font-size: 15px;
+letter-spacing: 5px;
+}
+.test{
+    background-color: black;
+    color: lightgrey;
+
+}
+.ground{
+    background-image: url(./img/architect.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    height: 600px;
+    margin-top: 2%;
+    width:100%;
+    text-align: center;
+    
+}
+.ground p{
+    text-align: center;
+    padding-top: 300px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+}
+#box{
+    background-color: #a05d5d;
+}
+#box,#box1{
+    margin-right: 40px;
+    margin-left: 15px;
+    background: white;
+}
+#box1{
+    width: 100%;
+}
+.project-name{
+    padding: 10px;
+    margin: 10px;
+}
+hr{
+    color: lightgrey;
+}
+.House-container1,
+.House-container2 {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 34px;
+}
+.house1,
+.house2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.summer{
+    width: 100%;
+    height: auto;
+    display: block;
+
+    
+
+}
+.square,
+.square1 {
+    position: relative;
+    margin-right: 20px;
+}
+
+#final{
+    margin-top: 34px;
+    margin-bottom: 15px;
+    width: 70%;
+}
+.people{
+    width: 22.8%;
+    float: left;
+    padding: 0;
+    padding-bottom: 0%;
+    margin-right: 20px;
+}
+.teams{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: bold;
+    margin-top: 10;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.para{
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button{
+    position: relative;
+    margin-top: 10;
+    margin-bottom: 13px;
+    background-color: rgb(208,206,206);
+    border: none;
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: grey;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+input{
+    width: 96%;
+    height: auto;
+    font-size: 18px;
+    padding: 10px 18px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+.click{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 1s;
+
+}
+.click:hover{
+    opacity: 0.5;
+}
+
+.click:active{
+    background-color: blueviolet;
+
+}
+footer{
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+}
+.footer-content{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+@media only screen and (max-width: 1100px){
+    .House-container1 {
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .House-container2{
+        flex-direction:row;
+        margin-top: 20px;
+        
+    }
+    .square,
+    .square1{
+        width: 20%;
+    }
+    .nav-container{                                                                             
+        text-align: center;
+    }
+    .people{
+        padding: 50px;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 22.8%;
+
+
+    }
+    .house1, .house2{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .intro a{
+        float: none;
+    }
+    .ground{
+        height: 400px;
+        
+
+    }
+    .nav-content{
+        flex-direction: row;
+        position: relative;
+        top: 0;
+        background-color: transparent;
+    }
+    .nav-content a {
+        padding: 0.5em;
+
+
+    }
+    .touch{
+        font-size: 16px;
+    }
+    #box1{
+        width: 50%;
+        padding: 50px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .House-container1 {
+       flex-direction: column;
+       flex-wrap: wrap;
+       margin-top: 20px;
+       align-items: center;
+    }
+    .House-container2{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        align-items: center;
+
+
+    }
+    .nav-container{
+        text-align: center;
+    }
+    .br{
+        float: none;
+    }
+    .people{
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+
+
+    }
+    .house1, .house2{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .square,
+    .square1{
+        width: 100%;
+    }
+    .intro a{
+        float: none;
+    }
+    .ground{
+        padding: 15px 0;
+
+    }
+    .nav-content{
+        flex-direction: row;
+        position: relative;
+        top: 0;
+        background-color: transparent;
+    }
+    .nav-content a {
+        padding: 0.5em;
+    }
+    .touch{
+        font-size: 20px;
+    }
+    .teams{
+        font-size: 18px;
+    }
+    #box1{
+        width: 50%;
+        padding: 50px;
+    }
+    
+
+
