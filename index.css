@@ -47,7 +47,6 @@ font-size: 15px;
 letter-spacing: 5px;
 }
 .test{
-    background-color: black;
     color: lightgrey;
     display: flex;
     justify-content: center;
@@ -130,7 +129,7 @@ hr{
     width: 100%;
 }
 .people{
-    width: 100%;
+    width: 22.8%;
     float: left;
     padding: 0;
     padding-bottom: 0%;
@@ -237,7 +236,7 @@ footer{
     .people{
         flex-wrap: wrap;
         text-align: center;
-        width: 100%;
+        width: 25%;
 
 
     }
