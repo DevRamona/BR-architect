@@ -49,6 +49,9 @@ letter-spacing: 5px;
 .test{
     background-color: black;
     color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .ground{
@@ -98,8 +101,8 @@ hr{
 .house1,
 .house2 {
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: 0;
+    left: 0;
     background-color: black;
     color: white;
     padding: 8px 16px;
@@ -124,10 +127,10 @@ hr{
 #final{
     margin-top: 34px;
     margin-bottom: 15px;
-    width: 70%;
+    width: 100%;
 }
 .people{
-    width: 22.8%;
+    width: 100%;
     float: left;
     padding: 0;
     padding-bottom: 0%;
@@ -287,46 +290,3 @@ footer{
     .nav-container{
         text-align: center;
     }
-    .br{
-        float: none;
-    }
-    .people{
-        width: 100%;
-
-
-    }
-    .house1, .house2{
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    .square,
-    .square1{
-        width: 100%;
-    }
-    .intro a{
-        float: none;
-    }
-    .ground{
-        padding: 15px 0;
-
-    }
-    .nav-content{
-        flex-direction: row;
-        position: relative;
-        top: 0;
-        background-color: transparent;
-    }
-    .nav-content a {
-        padding: 0.5em;
-    }
-    .touch{
-        font-size: 20px;
-    }
-    .teams{
-        font-size: 18px;
-    }
-    #box1{
-        width: 50%;
-        padding: 50px;
-    }
-}
