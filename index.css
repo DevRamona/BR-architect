@@ -232,10 +232,9 @@ footer{
         text-align: center;
     }
     .people{
-        padding: 50px;
         flex-wrap: wrap;
         text-align: center;
-        width: 22.8%;
+        width: 100%;
 
 
     }
@@ -293,8 +292,6 @@ footer{
     }
     .people{
         width: 100%;
-        flex-wrap: wrap;
-        text-align: center;
 
 
     }
